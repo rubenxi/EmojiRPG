@@ -92,6 +92,7 @@ Your emojis retain the health they had at the end of a battle. You need to heal 
 - Berry system: plant berries that grow over time, which you can then harvest to heal or revive your emojis.
 - Stats system
 - Leveling system to enhance your emojis' stats over time.
+- Overworld decoration system.
 
 
 
