@@ -90,7 +90,7 @@ Your emojis retain the health they had at the end of a battle. You need to heal 
 - Increase the number of attacks per emoji from 2 to 4.
 - Enemies in the overworld will be able to attack and dodge your attacks.
 - Berry system: plant berries that grow over time, which you can then harvest to heal or revive your emojis.
-- Stats system
+- Stats system.
 - Leveling system to enhance your emojis' stats over time.
 - Overworld decoration system.
 
