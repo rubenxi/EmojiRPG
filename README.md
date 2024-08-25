@@ -7,6 +7,8 @@ I developed the core mechanics for a turn-based combat system, a visual novel sy
 
 The game features animations throughout, all of which were handmade from scratch.
 
+Because the game uses emoji codes for the graphics, everything will look different depending on the emoji set of each device, making it interesting to see how the game appears on different phones.
+
 
 # ❓Why emojis?❓
 Lacking drawing skills, I decided to use emojis because they are a standard set of images with a consistent artistic design, and they look good enough to use in the game.
