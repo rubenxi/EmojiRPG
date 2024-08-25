@@ -25,7 +25,7 @@ More locations will be added in the future.
 
 ![1](https://github.com/user-attachments/assets/afb0754e-dd3e-4d5a-aeee-b5e89466e76a)
 
-# 👣Path tracking demo👣
+# 👣Path-tracking demo👣
 The game features a simple path-tracking system, which will be used in future updates to control enemies in the overworld.
 
 ![6](https://github.com/user-attachments/assets/15760322-548f-410d-a2e1-e4dd854faa62)
