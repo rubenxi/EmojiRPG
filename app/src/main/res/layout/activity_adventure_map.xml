@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adventure.AdventureMapActivity"
+    android:background="@drawable/floor"
+    android:backgroundTint="#E1000000"
+    android:backgroundTintMode="src_over"
+    android:fillViewport="true"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parentConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/floor"
+        android:backgroundTint="#E1000000"
+        android:backgroundTintMode="src_over"
+        android:fillViewport="true"
+        tools:context=".Adventure.MapaActivity">
+
+        <TextView
+            android:id="@+id/cielo1"
+            android:layout_width="86dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:scaleX="1.3"
+            android:scaleY="2"
+            android:text="🌌"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cielo2"
+            android:layout_width="86dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:scaleX="1.3"
+            android:scaleY="2"
+            android:text="🌌"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toStartOf="@+id/cielo1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cielo3"
+            android:layout_width="86dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:scaleX="1.3"
+            android:scaleY="2"
+            android:text="🌌"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toStartOf="@+id/cielo4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cielo4"
+            android:layout_width="86dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:scaleX="1.3"
+            android:scaleY="2"
+            android:text="🌌"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toStartOf="@+id/cielo2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cielo5"
+            android:layout_width="86dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:scaleX="1.3"
+            android:scaleY="2"
+            android:text="🌌"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toStartOf="@+id/cielo3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cielo6"
+            android:layout_width="86dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:scaleX="1.3"
+            android:scaleY="2"
+            android:text="🌌"
+            android:textSize="60sp"
+            app:layout_constraintStart_toEndOf="@+id/cielo1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pjTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔼"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/astro"
+            android:layout_width="86dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="🌕"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="@+id/cielo1"
+            app:layout_constraintStart_toStartOf="@+id/cielo1" />
+
+        <TextView
+            android:id="@+id/nube"
+            android:layout_width="86dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="☁️"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toStartOf="@+id/cielo2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/arribaButton"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="45dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="#00FFFFFF"
+            android:text="⬆️"
+            app:layout_constraintBottom_toTopOf="@+id/abajoButton"
+            app:layout_constraintEnd_toStartOf="@+id/derechaButton"
+            app:layout_constraintStart_toEndOf="@+id/izquierdaButton" />
+
+        <Button
+            android:id="@+id/abajoButton"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="#00FFFFFF"
+            android:text="⬇️"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/derechaButton"
+            app:layout_constraintStart_toEndOf="@+id/izquierdaButton" />
+
+        <Button
+            android:id="@+id/izquierdaButton"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="60dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="#00FFFFFF"
+            android:text="⬅️"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/derechaButton"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="50dp"
+            android:autoSizeTextType="uniform"
+            android:backgroundTint="#00FFFFFF"
+            android:text="➡️"
+            app:layout_constraintBottom_toBottomOf="@+id/izquierdaButton"
+            app:layout_constraintStart_toEndOf="@+id/izquierdaButton"
+            app:layout_constraintTop_toTopOf="@+id/izquierdaButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

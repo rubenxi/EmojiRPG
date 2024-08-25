@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EmojiRPG</string>
+    <string name="gachaDone">gachaDone</string>
+    <string name="gachaToday">gachaToday</string>
+    <string name="emojiActual">emojiActual</string>
+    <string name="spawn">spawn</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="🗃️ Collection"
+        />
+    <item android:id="@+id/item2"
+        android:title="⚔️ Fight"
+        />
+    <item android:id="@+id/item3"
+        android:title="🔃 Change Emoji"
+        />
+    <item android:id="@+id/item4"
+        android:title="👨🏻‍🦱 Visual Novel"
+        />
+    <item android:id="@+id/item5"
+    android:title="🗺️ Go To Map"
+    />
+</menu>

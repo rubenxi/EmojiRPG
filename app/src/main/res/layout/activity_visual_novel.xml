@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9000000"
+    android:backgroundTint="#E1000000"
+    android:backgroundTintMode="src_over"
+    android:fillViewport="true"
+    tools:context=".VisualNovelActivity">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="413dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/caraTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="bottom|center|center_horizontal|top"
+        android:text="👨🏻‍🦱"
+        android:textSize="400dp"
+        android:visibility="invisible"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/conversacionTextView"
+        android:layout_width="0dp"
+        android:layout_height="124dp"
+        android:alpha="0"
+        android:background="#E25C5C5C"
+        android:padding="10dp"
+        android:textSize="24dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

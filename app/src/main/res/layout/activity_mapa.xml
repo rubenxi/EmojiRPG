@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/floor"
+    android:backgroundTint="#E1000000"
+    android:backgroundTintMode="src_over"
+    android:fillViewport="true"
+    tools:context=".Adventure.MapaActivity">
+
+    <TextView
+        android:id="@+id/cielo1"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:scaleX="1.3"
+        android:scaleY="2"
+        android:text="🌌"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cielo2"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:scaleX="1.3"
+        android:scaleY="2"
+        android:text="🌌"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toStartOf="@+id/cielo1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cielo3"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:scaleX="1.3"
+        android:scaleY="2"
+        android:text="🌌"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toStartOf="@+id/cielo4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cielo4"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:scaleX="1.3"
+        android:scaleY="2"
+        android:text="🌌"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toStartOf="@+id/cielo2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cielo5"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:scaleX="1.3"
+        android:scaleY="2"
+        android:text="🌌"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toStartOf="@+id/cielo3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cielo6"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:scaleX="1.3"
+        android:scaleY="2"
+        android:text="🌌"
+        android:textSize="60sp"
+        app:layout_constraintStart_toEndOf="@+id/cielo1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/grassTextView5"
+        android:layout_width="77dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="50dp"
+        android:autoSizeTextType="uniform"
+        android:text="🏚️"
+        app:layout_constraintEnd_toEndOf="@+id/casaTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/heartButton"
+        android:layout_width="82dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="152dp"
+        android:autoSizeTextType="uniform"
+        android:backgroundTint="#00C22828"
+        android:gravity="center"
+        android:text="✨"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pjTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔼"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/grassTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="500dp"
+        android:text="🌲"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/grassTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="528dp"
+        android:text="🌲"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/casaTextView"
+        android:layout_width="147dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="50dp"
+        android:autoSizeTextType="uniform"
+        android:text="🏡"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/changeEmoji"
+        android:layout_width="147dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="100dp"
+        android:autoSizeTextType="uniform"
+        android:text="🏛️"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/casaTextView" />
+
+    <TextView
+        android:id="@+id/treeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="488dp"
+        android:text="🌲"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/grassTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="468dp"
+        android:text="🌲"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/treeSurpriseTextView"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="48dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/treeTextView"
+        app:layout_constraintEnd_toEndOf="@+id/treeTextView" />
+
+    <TextView
+        android:id="@+id/changeEmojiSurprise"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/changeEmoji"
+        app:layout_constraintTop_toTopOf="@+id/changeEmoji" />
+
+    <TextView
+        android:id="@+id/heartSurpriseTextView"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/heartButton"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="@+id/heartButton"
+        app:layout_constraintTop_toTopOf="@+id/heartButton" />
+
+    <TextView
+        android:id="@+id/casaSurpriseTextView"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/casaTextView"
+        app:layout_constraintEnd_toEndOf="@+id/casaTextView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/casaTextView"
+        app:layout_constraintTop_toTopOf="@+id/casaTextView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/astro"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="🌕"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cielo1"
+        app:layout_constraintStart_toStartOf="@+id/cielo1" />
+
+    <TextView
+        android:id="@+id/nube"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:text="☁️"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/cielo2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/arribaButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="45dp"
+        android:autoSizeTextType="uniform"
+        android:backgroundTint="#00FFFFFF"
+        android:text="⬆️"
+        app:layout_constraintBottom_toTopOf="@+id/abajoButton"
+        app:layout_constraintEnd_toStartOf="@+id/derechaButton"
+        app:layout_constraintStart_toEndOf="@+id/izquierdaButton" />
+
+    <Button
+        android:id="@+id/abajoButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:autoSizeTextType="uniform"
+        android:backgroundTint="#00FFFFFF"
+        android:text="⬇️"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/derechaButton"
+        app:layout_constraintStart_toEndOf="@+id/izquierdaButton" />
+
+    <Button
+        android:id="@+id/izquierdaButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="60dp"
+        android:autoSizeTextType="uniform"
+        android:backgroundTint="#00FFFFFF"
+        android:text="⬅️"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/derechaButton"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:autoSizeTextType="uniform"
+        android:backgroundTint="#00FFFFFF"
+        android:text="➡️"
+        app:layout_constraintBottom_toBottomOf="@+id/izquierdaButton"
+        app:layout_constraintStart_toEndOf="@+id/izquierdaButton"
+        app:layout_constraintTop_toTopOf="@+id/izquierdaButton" />
+
+    <Button
+        android:id="@+id/attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="175dp"
+        android:text="Button"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
