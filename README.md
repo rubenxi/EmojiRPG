@@ -17,7 +17,7 @@ Every graphic in the game uses emojis, from the characters to the battles and th
 # 💫Features💫
 
 # 🗺️Interactive map🗺️
-You are able to walk around the map and enter the location you want. There's a house for healing, a forest for combat, a library to manage your emojis team and more.  
+You are able to walk around the map and enter the location you want. There's a house for healing, a forest for combat, a library to manage your emojis team, a place to pull in the gacha and more.  
 
 More locations will be added in the future.
 
