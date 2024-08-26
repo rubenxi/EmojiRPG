@@ -7,13 +7,16 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -96,6 +99,23 @@ public class ChangeEmojiActivity extends AppCompatActivity {
 
             }
         });
+
+        nameEditText.setOnKeyListener(new View.OnKeyListener() {
+                                          @Override
+                                          public boolean onKey(View v, int keyCode, KeyEvent event) {
+                                              if (KeyEvent.KEYCODE_ENTER == keyCode) {
+                                                  InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                                                  if (imm != null) {
+                                                      imm.hideSoftInputFromWindow(nameEditText.getWindowToken(), 0);
+                                                      Toast.makeText(ChangeEmojiActivity.this, "Name changed to \n"+nameEditText.getText().toString(), Toast.LENGTH_SHORT).show();
+                                                  } else {
+                                                      return false;
+                                                  }
+                                              }
+                                              return false;
+                                          }
+                                      });
+
 
         AnimacionStandardMe animacionStandardMe = new AnimacionStandardMe(textView13);
         animacionStandardMe.animar();
