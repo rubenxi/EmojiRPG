@@ -83,6 +83,10 @@ Most existing emojis are included in the game, allowing you to capture, battle, 
 
 Your emojis retain the health they had at the end of a battle. You need to heal them, or they won't be able to fight again if they were defeated.
 
+# 🔢Leveling system🔢
+
+Your emojis will level up when defeating enemies.
+
 # 🗒️Planned features🗒️
 - More attacks.
 - More status effects (ideally a unique effect for each attack).
@@ -91,7 +95,7 @@ Your emojis retain the health they had at the end of a battle. You need to heal 
 - Enemies in the overworld will be able to attack and dodge your attacks.
 - Berry system: plant berries that grow over time, which you can then harvest to heal or revive your emojis.
 - Stats system.
-- Leveling system to enhance your emojis' stats over time.
+- Improve leveling system to enhance your emojis' stats over time.
 - Overworld decoration system.
 
 
